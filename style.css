@@ -1,0 +1,88 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+*{
+   padding:0;
+   margin:0;
+  }
+body{
+    background:hsl(0, 0%, 95%);
+   
+}
+header{
+    background:black;
+    height: 50px;
+    text-align:Center;
+    color:white;
+    font-size: 40px;
+    width:100%;
+}
+
+main{
+    padding:350px;
+    margin:auto;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    height:350px;
+}
+.sedans{
+padding:100px;
+background-color:hsl(31, 77%, 52%) ;
+border-radius: 10px 0px 0px 10px;
+color:hsl(0, 0%, 95%);
+height:100%;
+}
+.suvs{
+    padding:100px;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    height:100%;
+
+}
+.luxury{
+    padding:100px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 10px 10px 0px;
+    color:hsl(0, 0%, 95%);
+    height:100%;
+}
+
+h1{
+    font-family:'Big Shoulders Display';
+    color:hsl(0, 0%, 95%);
+}
+.sedans button{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+    width:150px;
+    height: 30px;
+    border:0px;
+    color:hsl(31, 77%, 52%) ;
+    
+    
+}
+.suvs button{
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 25px;
+    width:150px;
+    height: 30px;
+    border:0px;
+    color:hsl(184, 100%, 22%);
+    }
+.luxury button{
+        background-color:hsl(0, 0%, 95%);
+        border-radius: 25px;
+        width:150px;
+        height: 30px;
+        border:0px;
+        color:hsl(179, 100%, 13%);
+}
+p1{
+    font-family:'Lexend Deca';
+}
+
+
